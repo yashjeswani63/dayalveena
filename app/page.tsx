@@ -186,7 +186,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-semibold text-gray-800">Phone</p>
-                        <p className="text-gray-600">0091-145-2626626<br />2626627, 2626628</p>
+                        <p className="text-gray-600">0091-145-2626626, 2626627, 2626628</p>
                       </div>
                     </div>
 
@@ -221,7 +221,7 @@ export default function Home() {
                   <div className="space-y-3">
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span className="text-gray-600">Monday - Saturday</span>
-                      <span className="font-semibold text-gray-800">8:00 AM - 5:00 PM</span>
+                      <span className="font-semibold text-gray-800">8:00 AM - 6:00 PM</span>
                     </div>
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span className="text-gray-600">Sunday</span>
