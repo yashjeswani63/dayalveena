@@ -6,7 +6,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3 max-w-6xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left mb-2 md:mb-0">
-              <h1 className="text-xl md:text-2xl font-bold">जीव सेवा</h1>
+              <h1 className="text-xl md:text-2xl font-bold">जीव सेवा समिति, अजमेर</h1>
               <p className="text-xs opacity-90">Jeev Sewa Samiti, Ajmer</p>
             </div>
             <nav className="flex gap-5 text-sm">
@@ -26,8 +26,6 @@ export default function Home() {
             <div className="mb-8">
               <div className="w-32 h-32 mx-auto bg-gray-100 rounded-full flex items-center justify-center mb-6">
                 <div className="text-center">
-                  {/* <div className="text-3xl font-bold text-gray-800">जीव सेवा</div>
-                  <div className="text-xs text-gray-600">सत्यम् शिवम् सुन्दरम्</div> */}
                   <img src="/images/logo.jpeg" alt="Logo" className="w-24 h-24 rounded-full object-contain" />
                 </div>
               </div>
@@ -221,25 +219,28 @@ export default function Home() {
                   <div className="space-y-3">
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span className="text-gray-600">Monday - Saturday</span>
-                      <span className="font-semibold text-gray-800">8:00 AM - 6:00 PM</span>
+                      <span className="font-semibold text-gray-800">8:00 AM - 2:00 PM</span>
                     </div>
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span className="text-gray-600">Sunday</span>
-                      <span className="font-semibold text-gray-800">8:00 AM - 12:00 PM</span>
+                      <span className="font-semibold text-gray-800">8:00 AM - 10:30 AM</span>
                     </div>
-                    <div className="flex justify-between py-2">
-                      <span className="text-gray-600">Emergency Services</span>
-                      <span className="font-semibold text-red-700">24/7 Available</span>
-                    </div>
+                   <br />
                   </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-800 mb-6">Report Collection Timing</h3>
+                    <div className="space-y-3">
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600">Monday - Saturday</span>
+                          <span className="font-semibold text-gray-800">Till 5:00 PM</span>
+                        </div>
+                        <div className="flex justify-between py-2 border-b border-gray-200">
+                          <span className="text-gray-600">Sunday</span>
+                          <span className="font-semibold text-gray-800">Till 1:00 PM</span>
+                        </div>
+                      </div>
+                    </div>
 
-                  <div className="mt-8 p-4 bg-red-50 rounded-lg">
-                    <p className="text-sm text-gray-700">
-                      <span className="font-semibold text-red-700">Note:</span> For emergency services, 
-                      please call our helpline numbers. We are committed to providing prompt 
-                      diagnostic services when you need them most.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
