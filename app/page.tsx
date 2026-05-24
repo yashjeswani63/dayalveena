@@ -1,3 +1,9 @@
+import { Great_Vibes } from 'next/font/google';
+
+const greatVibes = Great_Vibes({
+  subsets: ['latin'],
+  weight: '400',
+});
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -23,6 +29,11 @@ export default function Home() {
       <section id="home" className="py-20 bg-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
+            {/* with the serif font */}
+            <p  className={`${greatVibes.className} text-3xl`}
+  style={{ wordSpacing: '5px', color : 'Red' }}>
+              With the Blessings of His Holiness Swami Hirdaram Sahib
+            </p>
             <div className="mb-8">
               <div className="w-32 h-32 mx-auto bg-gray-100 rounded-full flex items-center justify-center mb-6">
                 <div className="text-center">
@@ -224,6 +235,10 @@ export default function Home() {
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span className="text-gray-600">Sunday</span>
                       <span className="font-semibold text-gray-800">8:00 AM - 10:30 AM</span>
+                    </div>
+                    <div className="flex justify-between py-2 border-b border-gray-200">
+                      <span className="text-gray-600">Sonography</span>
+                      <span className="font-semibold text-gray-800">8:00 AM - 5:30 PM</span>
                     </div>
                    <br />
                   </div>
